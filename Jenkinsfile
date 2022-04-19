@@ -4,9 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                sh '''
-                    aws --version
-                '''
+                aws --version
             }
         }
     }
